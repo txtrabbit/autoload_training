@@ -1,0 +1,17 @@
+{
+    "name": "vanya/library",
+    "type": "project",
+    "require": {
+
+    },
+
+    "autoload": {
+            "psr-4": {
+                "Hello\\": "src/psr4/"
+            },
+            "psr-0": {
+                "Hello2\\": "src/psr0/"
+            }
+        }
+
+}
